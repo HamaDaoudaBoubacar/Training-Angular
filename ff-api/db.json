@@ -12,7 +12,7 @@
     },
     {
       "nom": "lorient",
-      "adresse": " lorient",
+      "adresse": "lorient",
       "id": 3
     }
   ],
@@ -25,7 +25,18 @@
       "equipeId": 1
     },
     {
+      "nom": "Icardi",
+      "poste": "AC",
+      "nationalite": "Italie",
+      "equipeId": 1,
       "id": 2
+    },
+    {
+      "nom": "Mbappe",
+      "poste": "AD",
+      "nationalite": "France",
+      "equipeId": 1,
+      "id": 3
     }
   ]
 }
