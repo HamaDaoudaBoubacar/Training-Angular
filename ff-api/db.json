@@ -9,6 +9,11 @@
       "nom": "Calais",
       "adresse": "Calais 62100",
       "id": 2
+    },
+    {
+      "nom": "lorient",
+      "adresse": " lorient",
+      "id": 3
     }
   ],
   "joueurs": [
