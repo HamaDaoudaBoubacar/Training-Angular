@@ -14,6 +14,21 @@
       "nom": "lorient",
       "adresse": "lorient",
       "id": 3
+    },
+    {
+      "nom": "Barça",
+      "adresse": "Espana Barcelona",
+      "id": 5
+    },
+    {
+      "nom": "Real Madrid",
+      "adresse": "Espana Madid",
+      "id": 6
+    },
+    {
+      "nom": "Athletico de Madrid",
+      "adresse": "Espana Madid",
+      "id": 7
     }
   ],
   "joueurs": [
@@ -37,6 +52,69 @@
       "nationalite": "France",
       "equipeId": 1,
       "id": 3
+    },
+    {
+      "nom": "Benzema",
+      "poste": "AC",
+      "nationalite": "France",
+      "equipeId": 6,
+      "id": 4
+    },
+    {
+      "nom": "Hazard",
+      "poste": "AG",
+      "nationalite": "Belgique",
+      "equipeId": 6,
+      "id": 5
+    },
+    {
+      "nom": "Vinicius Jr",
+      "poste": "AD",
+      "nationalite": "Brazil",
+      "equipeId": 6,
+      "id": 6
+    },
+    {
+      "nom": "Messi",
+      "poste": "AD",
+      "nationalite": "Argentina",
+      "equipeId": 5,
+      "id": 7
+    },
+    {
+      "nom": "Dembelé",
+      "poste": "AG",
+      "nationalite": "France",
+      "equipeId": 5,
+      "id": 8
+    },
+    {
+      "nom": "Griezman",
+      "poste": "AC",
+      "nationalite": "France",
+      "equipeId": 5,
+      "id": 9
+    },
+    {
+      "nom": "Suarez",
+      "poste": "AC",
+      "nationalite": "Uruguay",
+      "equipeId": 7,
+      "id": 10
+    },
+    {
+      "nom": "Costa",
+      "poste": "AD",
+      "nationalite": "Espana",
+      "equipeId": 7,
+      "id": 11
+    },
+    {
+      "nom": "Lemar",
+      "poste": "AG",
+      "nationalite": "France",
+      "equipeId": 7,
+      "id": 12
     }
   ]
 }
