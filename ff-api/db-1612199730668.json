@@ -1,0 +1,18 @@
+{
+  "equipes": [
+    {
+      "id": 1,
+      "nom": "PSG",
+      "adresse": "Toto 75000 paris"
+    }
+  ],
+  "joueurs": [
+    {
+      "id": 1,
+      "nom": "Neymar",
+      "poste": "AG",
+      "nationalite": "Brazil",
+      "equipeId": 1
+    }
+  ]
+}
