@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'hello-world';
+
+  title : String = 'La Meilleure Promo LP DIM';
+
+  nom : String = "";
+
+  jeSaisPas() : void{
+
+    console.log('Merci');
+    
+    this.title = 'LP DIM FI';
+  }
+  
 }
