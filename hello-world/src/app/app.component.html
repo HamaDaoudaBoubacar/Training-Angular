@@ -1,6 +1,12 @@
 <router-outlet></router-outlet>
-<h1>{{title}}</h1>
+<h1 [ngStyle]="{color:'red'}">{{title}}</h1>
+
 <button (click)="jeSaisPas()">click moi</button>
 
 <input [(ngModel)]="nom"/>
-<p>{{nom}}</p>
+
+<p>{{nom | uppercase | slice:1:3}}</p>
+
+<div *ngIf="!isVisible">I'm visible</div>
+
+{{etatActuelDeLaProp}} <--
