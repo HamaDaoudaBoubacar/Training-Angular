@@ -5,25 +5,25 @@ import { Component, DoCheck, Input, OnChanges, OnInit, SimpleChange, SimpleChang
   templateUrl: './child.component.html',
   styleUrls: ['./child.component.scss']
 })
-export class ChildComponent implements OnInit, OnChanges,DoCheck {
- 
-  private myNumber : number;
+export class ChildComponent implements OnInit, OnChanges, DoCheck {
 
- @Input() nom : string;
+  private myNumber: number;
+
+  @Input() nom: string;
 
   constructor() { }
-@Input() 
-  set myNewNumber(number:number){
+  @Input()
+  set myNewNumber(number: number) {
     this.myNumber = number;
   }
 
-  get myNewNumber(){
+  get myNewNumber() {
     return this.myNumber;
   }
 
-  ngOnChanges(changes:SimpleChanges){
+  ngOnChanges(changes: SimpleChanges) {
     //debugger;
-    const newNumberChange:SimpleChange = changes.myNewNumber;
+    const newNumberChange: SimpleChange = changes.myNewNumber;
     console.log('ancienne valeur - (ng on changes)', newNumberChange.previousValue);
     console.log('valeur actuelle- (ng on changes)', newNumberChange.currentValue);
     this.myNewNumber = newNumberChange.currentValue
@@ -33,27 +33,27 @@ export class ChildComponent implements OnInit, OnChanges,DoCheck {
     console.log('ngOnInit valeur', this.myNewNumber);
   }
 
-  ngDoCheck(){
+  ngDoCheck() {
     console.log(this.nom);
   }
 
-  ngAfterContentInit(){
+  ngAfterContentInit() {
     console.log('test');
   }
 
-  ngAfterContentChecked(){
+  ngAfterContentChecked() {
     console.log('executer apres test');
   }
 
-  ngAfterViewInit(){
+  ngAfterViewInit() {
     console.log('executer apres ngAfterContentChecked');
   }
 
-  ngAfterViewChecked(){
+  ngAfterViewChecked() {
     console.log('executer apres ngAfterViewInit');
   }
 
-  ngOnDestroy(){
+  ngOnDestroy() {
     console.log('Component destroy')
   }
 }
